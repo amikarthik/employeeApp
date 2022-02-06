@@ -2,7 +2,7 @@
     <Shell id="shell">
         <App id="app">
             <pages>
-                <Page id="page" title="Testing Fiori CICD">
+                <Page id="page" title="Testing Fiori change again">
                     <content>
                         <List noDataText="Drop list items here" id="list0" items="{path:'/I_BusPartPrefixName',parameters:{select:'LastNamePrefix'}}">
                             <items>
