@@ -1,0 +1,17 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="employeefiori.controller.View1" displayBlock="true">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <List noDataText="Drop list items here" id="list0" items="{path:'/I_BusPartPrefixName',parameters:{select:'LastNamePrefix'}}">
+                            <items>
+                                <StandardListItem type="Navigation" title="{LastNamePrefix}" description="{LastNamePrefixName}" icon="sap-icon://picture" id="item0"/>
+                            </items>
+                        </List>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
